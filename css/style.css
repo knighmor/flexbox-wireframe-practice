@@ -1,0 +1,83 @@
+body {
+    background: #B1B5BE;
+    color: #E5E4EB;
+    text-align: center;
+    justify-items: center;
+    font-size: 26px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    height: 370px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: center;
+    justify-content: center;
+    background: #9F2063;
+    width: 90%;
+    margin: 4px;
+    flex: 1;
+    border: 0px;
+    border-radius: 6px;
+}
+
+.art_section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #28B47D;
+    width: 90%;
+    margin: 4px;
+    flex: 6;
+    border: 0px;
+    border-radius: 6px;
+}
+
+.article {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    justify-items: center;
+    background: #E4195B;
+    height: 25%;
+    width: 90%;
+    margin: 2px;
+    font-size: 18px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+aside {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    justify-items: center;
+    background: #116395;
+    width: 90%;
+    margin: 4px;
+    flex: 1;
+    border: 0px;
+    border-radius: 6px;
+}
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    justify-items: center;
+    background: #E06B26;
+    width: 90%;
+    margin: 4px;
+    flex: 1;
+    border: 0px;
+    border-radius: 6px;
+}
